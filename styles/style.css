@@ -1,0 +1,70 @@
+@font-face {
+    font-family: '04b30';
+    src: url('../fonts/04b-30/04b_30__-webfont.woff2') format('woff2'),
+         url('../fonts/04b-30/04b_30__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'minecraft';
+    src: url('../fonts/minecraft/minecraft-webfont.woff2') format('woff2'),
+         url('../fonts/minecraft/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-size: 10px;
+    font-family: "minecraft", sans-serif;
+    background-color: yellow;
+}
+h1 {
+    font-family: '04b30';
+    font-size: 60px;
+    text-align: center;
+    color: yellow;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 0px red;
+}
+
+p, li {
+    font-family: "minecraft";
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+}
+ img {
+    size: 500%;
+    /* needs centering */
+    /* display: block; */
+    /* margin: 0 auto; */ 
+} 
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0 20px 20px 20px;
+    border: 9px solid #1d1dc0;
+  }
+
+  
+  #clyde {
+      color: #FFA000;
+      /* fix positions of ghosts */
+  }
+  #blinky {
+      color: #e90003;
+  }
+  #pinky {
+      color: #f89afb;
+  }
+  #inky {
+      color: #15fffe
+  }
+  #grid { /* temporary fix */
+      display: block;
+      margin: 0 auto;
+  }
